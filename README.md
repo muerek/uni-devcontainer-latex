@@ -22,8 +22,8 @@ For your initial setup, follow these steps:
 4. When prompted, click "Open in container".
 5. Wait while VS Code downloads the image and initializes the container.
 
-If your LaTeX file references any packages, watch out for MikTeX prompts.
-MikTeX will ask for your confirmation before installing packages.
+When you build your document for the first time, MikTeX will ask for your confirmation before installing packages.
+Uncheck "Always ask", otherwise you will have to confirm a lot.
 
 You can open the MikTeX configuration panel by opening a new Terminal in VS Code and typing `mpm`.
 
